@@ -5,7 +5,7 @@ import { FiSearch, FiShoppingCart } from "react-icons/fi";
 
 export default function Header() {
     return (
-        <header className='bg-white bg-opacity-50 rounded-md shadow backdrop-blur-sm border-gray-400 p-4 z-40 sticky'>
+        <header className='bg-white bg-opacity-50 rounded-md shadow backdrop-blur-sm border-gray-400 p-4 z-40 '>
             <Container className={'flex items-center justify-between'}>
                 {/* Logo */}
                 <Link href='/'>
