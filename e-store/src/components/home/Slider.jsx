@@ -63,6 +63,7 @@ export default function Slider() {
             fill
             alt={slide.url}
             key={key}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 200px"
             className={`${currentSlide == key ? 'opacity-100' : 'opacity-0'  } duration-1000`}
             />
           )
